@@ -8,29 +8,25 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class PageTwoController: UIViewController {
     
-    var timeCounter = 60
-    var coffeeTimer = Timer()
     
-       override func viewDidLoad() {
+    override func viewDidLoad() {
         super.viewDidLoad()
+        setBackgroundImage()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func startTimer(sender: UIButton) {
-        if startTimer.isValid {
-            startTimer.timeInterval
-        } else {
-            startTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(timeCounter), userInfo: nil, repeats: true)
-        }
+    func setBackgroundImage() {
+        let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
+        backgroundImage.image = UIImage(named: "background.jpg")
+        self.view.insertSubview(backgroundImage, at: 0)
     }
-
-
+    
+    
 }

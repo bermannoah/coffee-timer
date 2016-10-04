@@ -12,7 +12,7 @@
 		4F9372981DA3728400BCADD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F9372961DA3728400BCADD3 /* Main.storyboard */; };
 		4F93729A1DA3728400BCADD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F9372991DA3728400BCADD3 /* Assets.xcassets */; };
 		4F93729D1DA3728400BCADD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F93729B1DA3728400BCADD3 /* LaunchScreen.storyboard */; };
-		4F9372A51DA374E600BCADD3 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F9372A41DA374E600BCADD3 /* background.jpg */; };
+		4FE8D37F1DA431B900B2A546 /* PageTwoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE8D37E1DA431B900B2A546 /* PageTwoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		4F9372991DA3728400BCADD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F93729C1DA3728400BCADD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F93729E1DA3728400BCADD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F9372A41DA374E600BCADD3 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		4FE8D37E1DA431B900B2A546 /* PageTwoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTwoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +58,10 @@
 			children = (
 				4F9372921DA3728400BCADD3 /* AppDelegate.swift */,
 				4F9372941DA3728400BCADD3 /* ViewController.swift */,
+				4FE8D37E1DA431B900B2A546 /* PageTwoController.swift */,
 				4F9372961DA3728400BCADD3 /* Main.storyboard */,
 				4F9372991DA3728400BCADD3 /* Assets.xcassets */,
 				4F93729B1DA3728400BCADD3 /* LaunchScreen.storyboard */,
-				4F9372A41DA374E600BCADD3 /* background.jpg */,
 				4F93729E1DA3728400BCADD3 /* Info.plist */,
 			);
 			path = coffeeTimer;
@@ -130,7 +130,6 @@
 				4F93729D1DA3728400BCADD3 /* LaunchScreen.storyboard in Resources */,
 				4F93729A1DA3728400BCADD3 /* Assets.xcassets in Resources */,
 				4F9372981DA3728400BCADD3 /* Main.storyboard in Resources */,
-				4F9372A51DA374E600BCADD3 /* background.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +142,7 @@
 			files = (
 				4F9372951DA3728400BCADD3 /* ViewController.swift in Sources */,
 				4F9372931DA3728400BCADD3 /* AppDelegate.swift in Sources */,
+				4FE8D37F1DA431B900B2A546 /* PageTwoController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +304,7 @@
 				4F9372A31DA3728400BCADD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
